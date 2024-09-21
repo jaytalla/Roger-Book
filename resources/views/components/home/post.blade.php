@@ -13,8 +13,8 @@
             </div>
             <center><h2>Meow</h2></center>
             <hr class="my-4">
-            <x-form.textarea username="{{$username}}" name="post_status" placeholder="Write something here..." />
-            <button class="mt-2 button-def">POST</button>
+            <x-form.textarea username="{{$username}}" name="post_desc" placeholder="Write something here..." />
+            <button type="submit" class="mt-2 button-def">POST</button>
         </form>
     </div>
 </div>
